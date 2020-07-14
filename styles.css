@@ -199,8 +199,8 @@ body {
 
 .creator-image-wrapper a {
     margin-top: 30px;
-    margin-left: 35px;
-    font-size: 1.5em;
+    padding-left: 35px;
+    font-size: 1.25em;
     height:auto;
 }
 
@@ -242,6 +242,19 @@ body {
     margin-bottom: -5px;
 }
 
-.creatorlink-content-wrapper a{
+.bigger-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    margin-top: 15px;
+}
+
+.bigger-link-wrapper a {
+    color: black; 
     font-size: 1.25em;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.bigger-link-wrapper a:hover {
+    color: lightcoral;
 }
