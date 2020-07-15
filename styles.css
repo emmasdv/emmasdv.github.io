@@ -199,7 +199,7 @@ body {
 
 .creator-image-wrapper a {
     margin-top: 30px;
-    padding-left: 35px;
+    margin-left: 35px;
     height:auto;
 }
 
@@ -258,21 +258,22 @@ body {
     color: lightcoral;
 }
 
-.creator-image-wrapper2 img {
-    margin-top: 30px;
-    margin-left: 35px;
-    max-width: 95%;
-    height:auto;
+.bigger-link-wrapper2 {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    margin-top: 15px;
 }
 
-.creator-image-wrapper2 p {
-    margin-top: 30px;
-    margin-left: 35px;
-    height:auto;
+.bigger-link-wrapper2 a {
+    color: black; 
+    font-size: 1.25em;
+    text-decoration: none;
+    transition: color 0.5s;
+    margin-left: 2px;
 }
 
-.creator-image-wrapper2 a {
-    margin-top: 30px;
-    height:auto;
+.bigger-link-wrapper2 a:hover {
+    color: lightcoral;
 }
+
 
