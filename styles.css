@@ -276,4 +276,22 @@ body {
     color: lightcoral;
 }
 
+.bigger-link-wrapper3 {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    margin-top: 15px;
+}
+
+.bigger-link-wrapper3 a {
+    color: black; 
+    font-size: 1.25em;
+    text-decoration: none;
+    transition: color 0.5s;
+    margin-left: 15px;
+}
+
+.bigger-link-wrapper3 a:hover {
+    color: lightcoral;
+}
+
 
